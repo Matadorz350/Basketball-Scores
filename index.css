@@ -1,0 +1,86 @@
+:root {
+    --maincolor: #FEFEE3;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+    color: var(--maincolor);
+    background-image: url("images/kenny-eliason-UegcSdRtmlg-unsplash.jpg");
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 40vw;
+    min-width: 360px;
+    margin: auto;
+    margin-top: 10em;
+    padding: 2em;
+    background-image: linear-gradient(#002670, #355697, #002670);
+    border: 4px solid var(--maincolor);
+    border-radius: 1em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    font-size: 2em;
+    width: 40%;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding-top: 1.5rem;
+    background-color: #080B0C;
+    border-radius: 0.1em;
+    color: #D4B54B;
+}
+
+.score p {
+    margin: 0;
+}
+
+.btnBox {
+    margin-top: 0.8em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: inherit;
+    border: 2px solid #6a90dd;
+    border-radius: 6px;
+    color: #6a90dd;
+    font-size: 0.6em;
+    font-family: 'Cursed Timer ULiL', Arial, Helvetica, sans-serif;
+    padding: 0.6em;
+}
+
+.btn:hover {
+    background-color: #3b64b5;
+}
+
+.btn:active {
+    transform: translate(0, 2px);
+    box-shadow: 0px 0px 4px #102653;
+}
+
+#btn-NewGame {
+    margin-top: 3em;
+    padding: 10px 14px;
+    background-color: #4872c6;
+    color: var(--maincolor);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px var(--maincolor);
+}
